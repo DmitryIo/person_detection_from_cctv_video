@@ -30,6 +30,8 @@ import PIL.ImageFont as ImageFont
 import six
 import tensorflow as tf
 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 _TITLE_LEFT_MARGIN = 10
 _TITLE_TOP_MARGIN = 10
