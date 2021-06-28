@@ -86,7 +86,7 @@ def load_image_into_numpy_array(image):
 
 # start providing video
 # you can use live CCTV video URL in place of "test_video.mp4"
-cap = cv2.VideoCapture('cctv.mp4')
+cap = cv2.VideoCapture('test_video.mp4')
 #get framerate of given video
 frame_rate = int(cap.get(cv2.CAP_PROP_FPS))
 print('>>>>>>>>>FRAME RATE>>>>>>>' + str(frame_rate))
